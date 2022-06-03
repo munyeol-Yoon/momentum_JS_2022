@@ -8,12 +8,12 @@ const HIDDEN_CLASSNAME ="hidden";
 const USERNAME_KEY = "username";
 
 function onLoginSubmit(event){
-    const username = loginInput.value;
+    const username_value = loginInput.value;
     event.preventDefault();
     console.log(loginInput.value);
     loginForm.classList.add(HIDDEN_CLASSNAME);
-    localStorage.setItem(USERNAME_KEY, username);
-    paintGreetings(username);
+    localStorage.setItem(USERNAME_KEY, username_value);
+    paintGreetings(username_value);
 }
 
 function paintGreetings(username){
