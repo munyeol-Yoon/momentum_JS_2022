@@ -1,3 +1,10 @@
+
+/*reset*/
+@import "./reset.css";
+/*component*/
+@import "./component/footer.css";
+@import "./component/center.css";
+
 .hidden{
     display:none;
 }
@@ -6,4 +13,5 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color:white;
 }
