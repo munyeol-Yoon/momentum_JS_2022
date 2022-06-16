@@ -4,6 +4,7 @@
 /*component*/
 @import "./component/footer.css";
 @import "./component/center.css";
+@import "./component/startmenu.css";
 
 .hidden{
     display:none;

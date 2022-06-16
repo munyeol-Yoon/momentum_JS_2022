@@ -1,0 +1,11 @@
+.hidemenu{
+    display:none;
+    transition: ease-in-out 0.5s;
+}
+.hiddenstartmenu{
+    border:1px solid black;
+    width:30vw;
+    height:100vh;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
