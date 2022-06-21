@@ -4,8 +4,8 @@
 }
 .hiddenstartmenu{
     border:1px solid black;
-    width:30vw;
+    width:35vw;
     height:100vh;
-    background-color: white;
+    background-color: #100C23;
     transition: ease-in-out 0.5s;
 }

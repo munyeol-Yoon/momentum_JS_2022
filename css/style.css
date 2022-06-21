@@ -5,6 +5,7 @@
 @import "./component/footer.css";
 @import "./component/center.css";
 @import "./component/startmenu.css";
+@import "./component/todo.css";
 
 .hidden{
     display:none;
