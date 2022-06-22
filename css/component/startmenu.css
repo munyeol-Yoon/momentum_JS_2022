@@ -1,11 +1,12 @@
 .hidemenu{
     display:none;
-    transition: ease-in-out 0.5s;
+    position:relative;
 }
 .hiddenstartmenu{
     border:1px solid black;
     width:35vw;
-    height:100vh;
+    height:auto;
     background-color: #100C23;
-    transition: ease-in-out 0.5s;
+    position:absolute;
+    bottom:35px;
 }
